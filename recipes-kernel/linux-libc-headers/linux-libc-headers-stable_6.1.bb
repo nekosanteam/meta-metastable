@@ -5,8 +5,8 @@ LICENSE = "MIT"
 require recipes-kernel/linux-libc-headers/linux-libc-headers.inc
 
 PROVIDES += "linux-libc-headers"
-RPROVIDES_${PN}-dev += "linux-libc-headers-dev"
-RPROVIDES_${PN}-dbg += "linux-libc-headers-dbg"
+RPROVIDES:${PN}-dev += "linux-libc-headers-dev"
+RPROVIDES:${PN}-dbg += "linux-libc-headers-dbg"
 
 S = "${WORKDIR}/git"
 
