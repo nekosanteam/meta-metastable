@@ -1,8 +1,8 @@
 DESCRIPTION = "tiny image for initramfs."
 LICENSE = "MIT"
-PACKAGE_INSTALL = "glibc libstdc++ busybox busybox-inittab base-files"
+PACKAGE_INSTALL = "glibc libstdc++ ell busybox busybox-inittab base-files"
 IMAGE_FEATURES = ""
-IMAGE_FSTYPES = "${INITRAMFS_FSTYPES}"
+IMAGE_FSTYPES = "${INITRAMFS_FSTYPES} ext4"
 
 inherit core-image
 
