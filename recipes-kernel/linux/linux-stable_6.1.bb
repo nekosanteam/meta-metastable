@@ -10,7 +10,7 @@ DEPENDS += "${@bb.utils.contains('ARCH', 'x86', 'elfutils-native', '', d)}"
 
 S = "${WORKDIR}/git"
 B = "${WORKDIR}/build"
-KERNEL_CONFIG_COMMAND = "oe_runmake_call O=${B} -C ${S} olddefconfig"
+KERNEL_CONFIG_COMMAND = "oe_runmake_call O=${B} -C ${S} allnoconfig"
 
 LIC_FILES_CHKSUM = "file://COPYING;md5=6bc538ed5bd9a7fc9398086aedcd7e46"
 SRCREV = "4a61839152cc3e9e00ac059d73a28d148d622b30"
