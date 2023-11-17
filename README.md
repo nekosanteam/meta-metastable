@@ -5,7 +5,7 @@ MACHINE = "qemuarm64"
 DL_DIR = "${TOPDIR}/../downloads"
 PACKAGE_CLASSES = "package_deb"
 
-LINUXLIBCVERSION = "6.1"
+LINUXLIBCVERSION = "6.6"
 MACHINE = "qemuarm64"
 INHERIT += "rm_work"
 
