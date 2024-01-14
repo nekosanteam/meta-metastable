@@ -1,4 +1,4 @@
 require recipes-kernel/linux-libc-headers/linux-libc-headers.inc
 
 LIC_FILES_CHKSUM = "file://COPYING;md5=6bc538ed5bd9a7fc9398086aedcd7e46"
-SRC_URI[sha256sum] = "d926a06c63dd8ac7df3f86ee1ffc2ce2a3b81a2d168484e76b5b389aba8e56d0"
+SRC_URI[sha256sum] = "5a807a5fa2a80ada957d8079681dfb5cc196ec26f43244d1c8a4fd7af592d192"
